@@ -1,0 +1,49 @@
+* {
+    margin:0;
+    padding: 0;
+}
+h1 {
+    text-align: center;
+}
+.container{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    box-shadow: 0 8px 8px rgb(128, 125, 125);
+    height: 550px;
+    width: 450px;
+    text-align: center;
+    background-color: hsl(74, 93%, 76%);
+}
+.topContent{
+    margin-top: 25px;
+}
+.check {
+    font-weight: 700;
+}
+.btn {
+    font-weight: 700;
+}
+.btn:hover{
+    background-color: rgb(223, 177, 118);
+}
+#error {
+    color: red;
+}
+#showScore {
+    margin-top: 80px;
+    margin-left: 95px;
+    padding: 15px;
+    background-color: rgb(181, 194, 194);
+    box-shadow: 0 3px 3px rgb(96, 98, 96);
+    border-radius: 8px;
+    width: 250px;
+    height: 300px;
+    color: rgb(61, 13, 122);
+    font-size: 30px;
+    font-weight: 700;
+}
+.scoreArea{
+    display: none;
+}
